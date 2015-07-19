@@ -1,0 +1,20 @@
+Class8-Mathematics:
+Rational Numbers,Squares and Square Roots,Cubes and Cube Roots,Comparing Quantities,Playing with Numbers,
+Linear Equations in One Variable,Algebraic Expressions and Identities,Exponents and Powers,Direct and Inverse Proportions,
+Factorisation,Understanding Quadrilaterals,Practical Geometry,Visualising Solid Shapes,Data Handling,Mensuration,Introduction to Graphs.
+Class8-Science:
+SC81,SC82,SC83,SC84,SC85.
+Class9-Mathematics:
+M91,M92,M93,M94,M95.
+Class9-Science:
+SC91,SC92,SC93,SC94,SC95.
+Class8-NavLinks:
+Home,Mathematics,Science,Physics,Chemistry,Support.
+Class9-NavLinks:
+Home,Mathematics,Science,Support.
+Class10-NavLinks:
+Home,Mathematics,Science,Support.
+Class11-NavLinks:
+Home,Mathematics,Science,Support.
+Class12-NavLinks:
+Home,Mathematics,Science,Support

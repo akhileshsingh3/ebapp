@@ -1,0 +1,105 @@
+meta.foundation-mq-small {font-family: "only screen and (min-width:48em)";width: 48em; }
+meta.foundation-mq-medium {font-family: "only screen and (min-width:80em)";width: 80em; }
+meta.foundation-mq-large {font-family: "only screen and (min-width:90em)";width: 90em; }
+*,*:before,*:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; }
+body {	background: white;		color: #222222;		padding: 0;		margin: 0;			
+		font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-weight: normal;	font-style: normal;	line-height: 1;	position: relative;	cursor: default; }
+.right {float: right !important; }.text-right {text-align: right !important; }.text-center {text-align: center !important;} 
+header .row {padding: 0; }
+.errorTxt{
+ 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-style: normal;color: #c4130f;text-rendering: optimizeLegibility;
+	line-height: 1.2125em;
+	margin: 0 0 .5em 0;
+	padding-left: .5em;
+	font-size: small;
+	
+}
+
+.row {padding-top: 2em;padding-bottom: 2em; }
+.row .row {
+	padding-top: 0;padding-bottom: 0; margin-left: -0.9375em;margin-right: -0.9375em;
+	max-width: none;width: auto;*zoom: 1; }
+.row:before, .row:after {content: " ";display: table; }.row:after {clear: both; }
+.row.collapse .column,.row.collapse .columns {padding-left: 0;padding-right: 0;float: left; }
+.row .row.collapse {margin-left: 0;margin-right: 0;max-width: none;width: auto;*zoom: 1; }
+h4,h5 {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: bold;
+	font-style: normal;color: #3a505e;text-rendering: optimizeLegibility;margin-top: 0.2em;margin-bottom: 0.5em;
+	line-height: 1.2125em; }
+h5 {font-size: 1.125em; font-weight: 400; }
+button,.button {
+	border-style: solid;border-width: 1px;cursor: pointer;font-family: inherit;font-weight: bold;
+	line-height: normal;margin: 0 0 1.25em;position: relative;text-decoration: none;text-align: center;
+	display: inline-block;padding-top: 0.75em;padding-right: 1.5em;padding-bottom:0.8125em;padding-left: 1.5em;
+	font-size: 1em;background-color: #3a505e;border-color: #27353e;color: white; }
+button:hover, button:focus, .button:hover, .button:focus {background-color: #27353e;color: white; }
+.button-wrap:before, .button-wrap:after {content: " ";position: absolute;display: block;z-index: 1; }
+.button-wrap.button--blue .button:hover {background-color: #329CC9; }
+.button-wrap.button--blue .button:active {background-color: #3ea7d3; }
+.button {
+	
+	background-color: #298cb5;border: 1px solid #206c8c;
+	min-width: 160px;box-shadow: none !important;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	padding-top: 0.7125em;font-size: 0.775em;-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;-ms-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;transition: background 0.1s linear; }
+input[type="text"],input[type="password"],input[type="email"]{
+	-webkit-appearance: none;		-webkit-border-radius: 0;-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-sizing: border-box;	-webkit-transition: all 0.15s linear;
+	border-radius: 0;background-color: white;margin: 0 0 .1em 0;height: .5625em;width: 90%;
+	color: rgba(0, 0, 0, 0.75);display: block;
+	font-family: inherit;border: 1px solid #cccccc;font-size: 0.775em;
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.1);box-sizing: border-box;
+	-moz-box-sizing: border-box;-moz-transition: all 0.15s linear;transition: all 0.15s linear;padding: 0 1em;
+	height: 2.5em; 
+	-webkit-transition: background-color 0.15s linear, border-color 0.15s linear;
+	-moz-transition: background-color 0.15s linear, border-color 0.15s linear;
+	-ms-transition: background-color 0.15s linear, border-color 0.15s linear;
+	-o-transition: background-color 0.15s linear,border-color 0.15s linear;
+	transition: background-color 0.15s linear, border-color 0.15s linear;}
+.input-wrap:hover input[type="submit"] {
+ 	-webkit-box-shadow: 0;-moz-box-shadow: 0;-ms-box-shadow: 0;-o-box-shadow: 0;
+ 	box-shadow: 0;border-color: transparent !important;background-image: none !important; }
+.input-wrap input, .input-wrap .select {border-color: #cccccc;outline: 0; }
+.input-wrap input:focus ~ [class^="icon-"],.input-wrap input:focus ~ [class*="icon-"], 
+.input-wrap .select:focus ~ [class^="icon-"],.input-wrap .select:focus ~ [class*="icon-"] {color: #86b3ea !important; }
+.input-wrap input:focus:hover, .input-wrap .select:focus:hover {border-color: #86b3ea; }
+.input-wrap-icon [class^="icon-"],.input-wrap-icon [class*="icon-"] {
+ 	font-size: 1.0em;line-height: 2.0em;width: 1.5em;position: absolute;text-align: center;
+ 	color: #e3e3e3;-webkit-transition: color 0.15s linear;-moz-transition: color 0.15s linear;
+ 	-ms-transition: color 0.15s linear;-o-transition: color 0.15s linear;transition: color 0.15s linear; }
+.input-wrap-icon--left [class^="icon-"],.input-wrap-icon--left [class*=" icon-"] {left: 0;top: 0; }
+.input-wrap-icon--left input[type="text"],.input-wrap-icon--left input[type="password"],
+.input-wrap-icon--left input[type="email"] {padding-left: 3em;padding-right: 1em; }
+
+.text--bold {font-weight: 600; }
+a {
+	color: #3a505e;text-decoration: underline;-webkit-transition: color 0.15s ease-out;
+  	-moz-transition: color 0.15s ease-out;-ms-transition: color 0.15s ease-out;-o-transition: color 0.15s ease-out;
+  	transition: color 0.15s ease-out; }
+a:hover {color: #809eb1; }
+a:focus {border-bottom: 1px dotted #555; }
+.margin-top-small-0 {margin-top: 0; }   
+.margin-top-small-1 {margin-top: 1.25em; }
+.margin-bottom-small-0 {margin-bottom: 0 !important; }
+.margin-bottom-small-1 {margin-bottom: 1.25em !important; }
+
+
+.panel--light{
+	display: block;margin-bottom: 1.25em;padding: 1.25em; background: whitesmoke;
+	border: 1px solid #dedede;color: inherit;  }
+.stage--header {text-shadow: 0px 1px 2px #222;font-size: 0.5em;padding-bottom: 0; }
+.stage--header h1 {line-height: 0.8em; }
+.stage--header h1 span {white-space: nowrap; }
+@media only screen and (min-width: 48em) {.stage--header {font-size: .9em; } }
+@media only screen and (min-width: 80em) {.stage--header {font-size: 1.1em; } }
+.stage--header span {font-size: .6em; }.stage--login {
+	margin-top: 0.8em;font-size: 0.7em;padding: .2em .5em;margin-right: .5em;color: #fff;text-decoration: none; }
+.stage-bg--1 {	
+	background: url("../images/Chalkboard3.png")no-repeat 0 0 #1e3a46;
+	background-position: 50% 110%;
+	background-size: 400%;background-position: center;
+	background-size: cover;background-attachment: fixed;
+}

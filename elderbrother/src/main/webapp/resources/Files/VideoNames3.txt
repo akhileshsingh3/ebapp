@@ -1,0 +1,18 @@
+Class8-Mathematics:
+Rational Numbers-Video1(movie/Intro_CL10.mp4),Video2(movie/RatinalNumber_8_Me.mov),Video3(movie/RatinalNumber_8_Me2.mov),Video4(),Video5(),Video6():
+Squares and Square Roots-Vid1(),Vid2(),Vid3(),Vid4(),Vid5(),Vid6():
+Cubes and Cube Roots-Vide1(),Vide2(),Vide3(),Vide4(),Vide5(),Vide6();
+
+Class8-Science:
+SC81-SC81Vid1,SC81Vid2,SC81Vid3,SC81Vid4,SC81Vid5:
+SC82-SC82Vid1,SC82Vid2,SC82Vid3,SC82Vid4,SC82Vid5:
+SC83-SC83Vid1,SC83Vid2,SC83Vid3,SC83Vid4,SC83Vid5:
+SC84-SC84Vid1,SC84Vid2,SC84Vid3,SC84Vid4,SC84Vid5:
+SC85-SC85Vid1,SC85Vid2,SC85Vid3,SC85Vid4,SC85Vid5;
+
+Class9-Mathematics:
+M91-M91Vid1,M91Vid2,M91Vid3,M91Vid4,M91Vid5:
+M92-M92Vid1,M92Vid2,M92Vid3,M92Vid4,M92Vid5:
+M93-M93Vid1,M93Vid2,M93Vid3,M93Vid4,M93Vid5:
+M94-M94Vid1,M94Vid2,M94Vid3,M94Vid4,M94Vid5:
+M95-M95Vid1,M95Vid2,M95Vid3,M95Vid4,M95Vid5

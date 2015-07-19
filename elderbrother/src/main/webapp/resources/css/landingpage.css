@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+body{
+	background: url("../images/Background.png");		
+	color: #000305;		padding: 0;		margin: 0;			
+	font-size:7.5%;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", 
+					Helvetica, Arial, sans-serif;
+	font-weight: normal;	
+	font-style: normal;	line-height: 1;	
+	position: relative;	cursor: default;
+	text-align: left;
+}
+a{		text-decoration: none;}
+a:LINK, a:VISITED {}
+a:HOVER, a:ACTIVE {}
+.body{
+	margin:0 auto;
+	width: 70%;
+	clear: both;
+}
+.mainHeader img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0;}
+.mainHeader nav{
+	background-color: #656;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;}
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;}
+.mainHeader nav ul li{
+	float: left;
+	display: inline;}
+.mainHeader nav a:LINK, .mainHeader nav a:VISITED {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;}
+.mainHeader nav a:HOVER, .mainHeader nav a:ACTIVE,
+.mainHeader nav .active a:LINK, .mainHeader nav .active a:ACTIVE  {
+	background-color: #cf5c3f;
+	text-shadow: none;}
+.mainHeader nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;}
+.mainContent{
+	line-height:25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow:hidden;}
+.content{
+	width: 70%;
+	float:left;}
+.topContent{
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;}	
+.bottomContent{
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2px;}
+.top-sidebar{
+	width: 21%;
+	float:left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin:2% 0 2% 3%; 
+	padding: 3% 5%;}
+.middle-sidebar{
+	width: 21%;
+	float:left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin:0 0 2% 3%; 
+	padding: 3% 5%;}
+.bottom-sidebar{
+	width: 21%;
+	float:left;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin:0 0 2% 3%; 
+	padding: 3% 5%;}
+.mainfooter {
+	width: 100%;
+	float:left;
+	background-color: #656;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top:2%; 
+	margin-bottom: 2%;}
+.mainfooter p{
+width: 	92%;
+margin: 10px auto;
+color: #fff;}

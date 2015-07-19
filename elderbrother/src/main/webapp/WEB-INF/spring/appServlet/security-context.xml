@@ -1,0 +1,55 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/security
+    http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+	<http auto-config="false" > 
+	<intercept-url pattern="/LandingPage" access="ROLE_ADMIN" />	
+	<form-login 
+		    login-page="/LogIn" 
+		    default-target-url="/LandingPage"
+		    authentication-failure-url="/LogIn?error"  
+			username-parameter="username"
+			password-parameter="password" />
+	<logout invalidate-session="false"  logout-url="/j_spring_security_logout" logout-success-url="/LogIn"  delete-cookies="JSESSIONID"  /> 
+	
+	
+	</http>
+	
+	<!-- to get the encoder bean from servlet context -->
+	<beans:import resource="servlet-context.xml" />
+	
+	
+	
+	<!-- authentication manager -->
+	<!-- <authentication-manager>
+		<authentication-provider>
+		<password-encoder ref="encoder"></password-encoder>
+			<user-service>
+				<user name="admin" password="$2a$12$U7bvBXAdvE4zxEa7awbf/.UuRtz6K.vX6pByFDl8Ge7IXvvFEcM5S" authorities="ROLE_ADMIN" />
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>  -->
+	
+	<beans:bean id="daoAuthenticationProvider" class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+	    <beans:property name="userDetailsService" ref="userDetailsService" ></beans:property>
+	    
+	</beans:bean>
+	
+	<beans:bean id="authenticationManager" class="org.springframework.security.authentication.ProviderManager">
+	    <beans:property name="providers">
+	        <beans:list>
+	            <beans:ref local="daoAuthenticationProvider"/>
+	        </beans:list>
+	    </beans:property>
+	</beans:bean>
+	
+	<authentication-manager>
+	    <authentication-provider user-service-ref="userDetailsService">
+<!-- 	        <password-encoder hash="md5"></password-encoder> -->
+	    </authentication-provider>
+	</authentication-manager>
+
+</beans:beans>
